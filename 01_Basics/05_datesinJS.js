@@ -11,5 +11,5 @@ let myCreatedDate = new Date (1998 , 3 , 4) // new date create karne ke liye use
 console.log(myCreatedDate.toDateString()); // toDateString me (day-month-date-year) show karega
 
 
-let myTimeStamp = Date.now()
+let myTimeStamp = Date.now() // second ya min me count ke liye quizBasi
 console.log(myTimeStamp);
