@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: #414141; 
+            color: aliceblue;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <h2>Amazing image</h2>
+    <ul id="images">
+        <li>
+            <img width="200px" id="restorent" src="/events/img/1.jpg" alt="photoshop">
+        </li>
+        <li>
+            <img width="200px" id="house" src="/events/img/2.jpg" alt="photoshop">
+        </li>
+        <li>
+            <img width="200px" id="event" src="/events/img/3.jpg" alt="photoshop">
+        </li>
+        <li>
+            <img width="200px" id="event" src="/events/img/4.jpg" alt="photoshop">
+        </li>
+
+        <li> <a href="https://google.com" id="google">Google</a></li>
+    </ul>
+</div>
+</body>
+
+<script>
+    // document.getElementById('event').onclick = function() {
+    //     alert('You clicked the image!');
+    // }
+
+    document.getElementById('images').addEventListener('click', function() {
+        console.log("clicked inside the ul");
+        
+    }, false);
+    document.getElementById('house').addEventListener('click', function() {
+        console.log("house clicked");
+        
+    }, false);
+
+    //attachEvent()
+    //jQuery - on()
+    //type, defaultPrevented, target, currentTarget, eventPhase, bubbles, cancelable, timeStamp
+
+
+
+
+</script>
+</html>
